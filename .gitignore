@@ -1,0 +1,12 @@
+# Ignore python virtual environment
+.venv/
+venv/
+__pycache__/
+*.pyc
+
+# Ignore large YOLO model files
+*.pt
+yolo11n.pt
+
+# Ignore large dataset folder (Optional but highly recommended)
+data/
